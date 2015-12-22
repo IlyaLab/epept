@@ -1,0 +1,16 @@
+## EPEPT client inputs ##
+
+|JSON variables| Description|Possible Values| Default value|Warning when...|Error when...|
+|:-------------|:-----------|:--------------|:-------------|:--------------|:------------|
+|mode          |EPEPT mode  |PV SAM GSEA    |PV            |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
+|file          |Required Tab delimited text file containing original statistic and permutation values or labeled dataset|File name of a file that exist in the inputs directory|N/A           |               |File does not exist. Action: Matlab permutation scripts cannot be run; generate error message|
+|method        |Method to estimate generalized Pareto distribution|PWM MOM ML     |PWM           |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
+|ci\_chk       |Check box for confidence interval computation|true false     |true          |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
+|ci            |Confidence interval|String containing a numerical value between 10 and 99|95            |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
+|oopt\_chk     |Check box for optimal order preserving transform|true false     |false         |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
+|cc\_chk       |Check box for convergence criterium|true false     |false         |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
+|rseed         |Numeric value, 0 indicates random value|0 .. 10000000  |0             |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
+|mail\_address |String value of an valid email address for EPEPT to send results or error uri|valid email address|              |Optional       |             |
+|resptype      |Response type for samr R package|Quantitative, Two class unpaired, Two class paired, Survival, Multiclass|Two class unpaired |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
+|nperms        |Number of permutations|1 ... 1000 SAM, 1000 ... 10000 GSEA|1000          |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
+|gsa\_method   |GSEA statistic for GSA R package|maxmean, mean, absmean|maxmean       |Variable does not exist, or value is not one of the possible values. Action: set default value and generate warning message|             |
