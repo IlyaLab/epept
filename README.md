@@ -9,6 +9,7 @@ In computational biology, permutation tests have become a widely used tool to as
 Results
 
 The proposed P-value estimator has been enriched with additional functionalities and is made available to the general community through a public website and web service, called EPEPT. This means that the EPEPT routines can be accessed not only via a website, but also programmatically using any programming language that can interact with the web. Examples of web service clients in multiple programming languages can be downloaded. Additionally, EPEPT accepts data of various common experiment types used in computational biology. For these experiment types EPEPT first computes the permutation values and then performs the P-value estimation. Finally, the source code of EPEPT can be downloaded. Thus, different types of users, such as biologists, bioinformaticians and software engineers, can use the method in an appropriate and simple way.
+
 Theo Knijnenburg, Jake Lin, Hector Rovira, John Boyle, Ilya Shmulevich
 Institute for Systems Biology
 401 Terry Ave North
