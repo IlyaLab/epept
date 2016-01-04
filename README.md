@@ -1,5 +1,3 @@
-# epept
-Automatically exported from code.google.com/p/epept
 EPEPT: A web service for enhanced P-value estimation in permutation tests
 
 Motivation
